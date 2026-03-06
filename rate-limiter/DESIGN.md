@@ -102,9 +102,9 @@ All algorithms accept a `TimeProvider` parameter (.NET 8+ abstraction). In produ
 I used **Gemini** (via Antigravity IDE assistant) throughout this project:
 
 - **Architecture planning**: AI helped analyze the book's chapters and design the project structure.
-- **Code generation**: Each algorithm was generated with AI assistance, then reviewed for correctness. Key design choices (TimeProvider injection, per-client locking, water-level model for Leaky Bucket analogy in the DESIGN.md) were discussed before implementation.
+- **Code generation**: Each algorithm was generated with AI assistance, then reviewed for correctness. Key design choices (TimeProvider injection, per-client locking) were discussed before implementation.
 - **Test generation**: Test scaffolding was AI-assisted. Test scenarios (boundary conditions, concurrency, window resets) were designed collaboratively.
-- **Everything was reviewed**: Every line of code was reviewed. The algorithms are documented with XML doc comments explaining trade-offs and decisions.
+- **Everything was reviewed**: Every line of code was reviewed. The algorithms are documented with comments explaining trade-offs and decisions.
 
 ---
 
